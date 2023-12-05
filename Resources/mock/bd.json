@@ -1,0 +1,87 @@
+{
+    "items": [
+        {
+            "_id": "64fcd1fd1a0cc71397877c15",
+            "title": "Legendary Saiyan",
+            "price": 18.99,
+            "image": "./Resources/images/Vegeta_Super_Saiyan_4_Dragon_Ball_Super_Dragon_Stars-bandai-removebg-preview.webp"
+        },
+        {
+            "_id": "653c6853aba28824e64d7a3c",
+            "title": "Mighty Jiren",
+            "price": 16.99,
+            "image": "./Resources/images/Evolve_Jiren-removebg-preview.webp"
+        },
+        {
+            "_id": "653c685baba28824e64d7a3d",
+            "title": "Goku",
+            "price": 16.99,
+            "image": "./Resources/images/Figura_Dragon_Ball_Z_Blood_Of_Saiyans-specialx-_16cm_17751-removebg-preview.webp"
+        }
+    ],
+    "products": [
+        {
+            "_id": "64fcf475749436638503ef0e",
+            "title": "Saiyan Fusion",
+            "price": 24.99,
+            "image": "./Resources/images/Dbs_Clearise_Ssg_Super_Saiyan_Gogeta-removebg-preview.webp"
+        },
+        {
+            "_id": "64fcf497749436638503ef10",
+            "title": "Superhero Goku",
+            "price": 27.99,
+            "image": "./Resources/images/Figura_de_acción_Son_Goku_Super_Hero_82328_de_Bandai_S.H._Figuarts-removebg-preview.webp"
+        },
+        {
+            "_id":"64fcf498749436638503ef12",
+            "title":"Time-Traveling Hero",
+            "price":"22.99",
+            "image":"./Resources/images/Gamma_2_Dragon_Ball_Super_Hero_Dragon_Stars_Figura_Bandai-removebg-preview.webp"
+        },
+        {
+            "_id":"653c696daba28824e64d7a3f",
+            "title":"Mighty Jiren",
+            "price":"21.99",
+            "image":"./Resources/images/Match_makers_Majin_Vegeta-removebg-preview.webp"
+        },
+        {
+            "_id":"653c6975aba28824e64d7a40",
+            "title":"Goku Ozaru",
+            "price":"25.99",
+            "image":"./Resources/images/Goku_Ozaru-removebg-preview.webp"
+        },
+        {
+            "_id":"653c697aaba28824e64d7a41",
+            "title":"Ultimate Gohan",
+            "price":"29.99",
+            "image":"./Resources/images/solid_edge_gothens-removebg-preview.webp"
+        }
+    ],
+    "newArrivals": [
+        {
+            "_id": "64fcf570926432ee2626d21f",
+            "title": "Super Saiyan Savior Goku",
+            "price": 19.99,
+            "image": "./Resources/images/Goku_Super_Saiyan_Rose_Funko_Pop-removebg-preview.webp"
+        },
+        {
+            "_id": "64fcf574926432ee2626d221",
+            "title": "Future Hero Trunks",
+            "price": 18.99,
+            "image": "./Resources/images/Future_TrunksFunkoPop-removebg-preview.webp"
+        },
+        {
+            "_id":"653c668caba28824e64d7a39",
+            "title":"Playful Goten",
+            "price":"16.99",
+            "image":"./Resources/images/Goten_Funko_Pop-removebg-preview.webp"
+        },
+        {
+            "_id":"653c6705aba28824e64d7a3a",
+            "title":"Cosmic Guide Whis",
+            "price":"22.99",
+            "image":"./Resources/images/Whis_Funko_Pop-removebg-preview.webp"
+        }
+    ]
+  }
+  

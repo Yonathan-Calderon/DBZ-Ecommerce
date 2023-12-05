@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Explore a wide range of Dragon Ball Z collectibles at our online store. Find action figures, statues, and memorabilia featuring your favorite characters from the Dragon Ball series. Shop now for the ultimate collector's experience." />
+
+    <!--=====================FAVICON=================-->
+    <link
+      rel="shortcut icon"
+      href="./resources/images/e-commerce.png"
+      type="image/x-icon"
+    />
+    <!--====================BOXICONS==================-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"/>
+    <!--====================SWIPER CSS================-->
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+    <title>DBZ Collection</title>
+    <link rel="stylesheet" href="./Resources/css/estilos.css" />
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+  </head>
+  <body>
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="#" class="nav__logo">
+          <span>DBZ</span>Collection
+        </a>
+
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#home" class="nav__link active-link">Home</a>
+            </li>
+            <li class="nav__item">
+              <a href="#featured" class="nav__link">Featured</a>
+            </li>
+            <li class="nav__item">
+              <a href="#products" class="nav__link">Products</a>
+            </li>
+            <li class="nav__item">
+              <a href="#new" class="nav__link">New</a>
+            </li>
+          </ul>
+
+          <div class="nav__close" id="nav-close">
+            <i class="bx bx-x"></i>
+          </div>
+        </div>
+
+        <div class="nav__btns">
+          <!-- Cambiar el tema del boton -->
+          <i class="bx bx-moon change-theme" id="theme-button"></i>
+
+          <div class="nav__shop" id="cart-shop">
+            <i class="bx bx-shopping-bag"></i>
+          </div>
+
+          <div class="nav__toggle" id="nav-toggle">
+            <i class="bx bx-grid-alt"></i>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+      <!--==================== CART ====================-->
+      <div class="cart" id="cart">
+        <i class='bx bx-x cart__close' id="cart-close"></i>
+
+        <h2 class="cart__title-center">My Cart</h2>
+
+        <div class="cart__container" id="shoppingCardItemsContainer">
+
+        </div>
+
+        <div class="cart__prices">
+            <span class="cart__prices-item">Total to pay: </span>
+            <span class="cart__prices-total shoppingCartTotal">0$</span>
+        </div>
+        <div class="cart__btn">
+          <a href="http://localhost:3000/" class="button button--gray button--small">
+            BUY
+          </a>
+
+          
+        </div>
+        
+    </div>
+
+    <!--===========================MAIN===================================-->
+    <main class="main">
+      <!--=======================HOME=============================-->
+      <section class="home" id="home">
+        <div class="home__container container grid">
+          <div class="home__img-bg">
+            <img src="./Resources/images/Figura_Trunks_Vol_7-removebg-preview.webp" alt="" class="home__img" />
+          </div>
+
+          <div class="home__social">
+            <a
+              href="https://www.facebook.com/"
+              target="_blank"
+              class="home__social-link"
+            >
+              Facebook
+            </a>
+            <a
+              href="https://twitter.com/"
+              target="_blank"
+              class="home__social-link"
+            >
+              Twitter
+            </a>
+            <a
+              href="https://www.instagram.com/"
+              target="_blank"
+              class="home__social-link"
+            >
+              Instagram
+            </a>
+          </div>
+
+          <div class="home__data">
+            <h1 class="home__title">Future Trunks</h1>
+            <p class="home__description">
+                Explore the latest addition to our exclusive Dragon Ball Z figure collection, featuring Trunks.
+                Immerse yourself in the world of Dragon Ball Z with this finely crafted collectible.
+            </p>
+            <span class="home__price">$49.99</span>
+        
+            <div class="home__btns">
+                <a href="#" class="button button--gray button--small">
+                    Discover
+                </a>
+            </div>
+            <button class="button home__button" onclick="">PRE-ORDER NOW</button>
+        </div>
+        
+        </div>
+      </section>
+      <!--==================== FEATURED ====================-->
+      <section class="featured section container" id="featured">
+        <h2 class="section__title ">Featured</h2>
+        <div class="featured__container grid" id="itemsContainer">
+          
+            
+            
+          
+        </div> 
+      </section>
+      
+      <!--==================== STORY ====================-->
+      <section class="story section container">
+        <div class="story__container grid">
+          <div class="story__data">
+              <h2 class="section__title story__section-title">Our Story</h2>
+              <h1 class="story__title">
+                  Inspirational Dragon Ball Z Figures of <br />
+                  this year
+              </h1>
+              <p class="story__description">
+                  Explore the latest and most modern Dragon Ball Z figures of the year, available in various designs in this store. Discover them now.
+              </p>
+              <a href="#" class="button button--small">Discover</a>
+          </div>
+          <div class="story__images">
+              <img src="./Resources/images/Goku_En_Nube_Voladora-removebg-preview.webp" alt="" class="story__img" />
+              <div class="story__square"></div>
+          </div>
+      </div>
+      
+      </section>
+      <!--==================== PRODUCTS ====================-->
+      <section class="products section container" id="products">
+        <h2 class="section__title">Products</h2>
+
+        <div class="products__container grid" id="productsContainer">
+          
+        </div>
+      </section>
+
+      <!--==================== TESTIMONIAL ====================-->
+      <section class="testimonial section container">
+        <div class="testimonial__container grid">
+          <div class="swiper testimonial-swiper">
+              <div class="swiper-wrapper">
+                  <div class="testimonial__card swiper-slide">
+                      <div class="testimonial__quote">
+                          <i class="bx bxs-quote-alt-left"></i>
+                      </div>
+                      <p class="testimonial__description">
+                          I couldn't be happier with my Dragon Ball Z figure collection. The quality and attention to detail are impressive. These figures are a must-have for any fan!
+                      </p>
+                      <h3 class="testimonial__date">April 15, 2023</h3>
+                      <div class="testimonial__perfil">
+                          <img src="./Resources/images/testimonial2.jpg" alt="" class="testimonial__perfil-img" />
+                          <div class="testimonial__perfil-data">
+                              <span class="testimonial__perfil-name">Sarah Johnson</span>
+                              <span class="testimonial__perfil-detail">Anime Enthusiast</span>
+                          </div>
+                      </div>
+                  </div>
+      
+                  <div class="testimonial__card swiper-slide">
+                      <div class="testimonial__quote">
+                          <i class="bx bxs-quote-alt-left"></i>
+                      </div>
+                      <p class="testimonial__description">
+                          The Dragon Ball Z figures in this store are simply amazing. I've been collecting for years, and this place has the best selection I've seen. Outstanding service too!
+                      </p>
+                      <h3 class="testimonial__date">April 20, 2023</h3>
+                      <div class="testimonial__perfil">
+                          <img src="./Resources/images/testimonial1.jpg" alt="" class="testimonial__perfil-img" />
+                          <div class="testimonial__perfil-data">
+                              <span class="testimonial__perfil-name">David Martinez</span>
+                              <span class="testimonial__perfil-detail">Collector</span>
+                          </div>
+                      </div>
+                  </div>
+      
+                  <div class="testimonial__card swiper-slide">
+                      <div class="testimonial__quote">
+                      <i class="bx bxs-quote-alt-left"></i>
+                      </div>
+                      <p class="testimonial__description">
+                          As a lifelong Dragon Ball Z fan, I'm thrilled with my purchases from this store. The figures arrived in perfect condition and exceeded my expectations. Highly recommended!
+                      </p>
+                      <h3 class="testimonial__date">April 25, 2023</h3>
+                      <div class="testimonial__perfil">
+                          <img src="./Resources/images/testimonial3.jpg" alt="" class="testimonial__perfil-img" />
+                          <div class="testimonial__perfil-data">
+                              <span class="testimonial__perfil-name">Emily Davis</span>
+                              <span class="testimonial__perfil-detail">Anime Lover</span>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+      
+              <div class="swiper-button-next">
+                  <i class="bx bx-right-arrow-alt"></i>
+              </div>
+              <div class="swiper-button-prev">
+                  <i class="bx bx-left-arrow-alt"></i>
+              </div>
+          </div>
+      
+          <div class="testimonial__images">
+              <div class="testimonial__square"></div>
+              <img src="./Resources/images/History_Box_Vol_3_Son_Goku-removebg-preview.webp" alt="" class="testimonial__img" />
+          </div>
+      </div>
+      
+      </section>
+
+      <!--==================== NEW ====================-->
+      <section class="new section container" id="new">
+        <h2 class="section__title">New Arrivals</h2>
+
+        <div class="new__container">
+          <div class="swiper new-swiper">
+            <div class="swiper-wrapper" id="newArrivalsContainer">
+              
+              
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== NEWSLETTER ====================-->
+      <section class="newsletter section container">
+        <div class="newsletter__bg grid">
+          <div>
+              <h2 class="newsletter__title">
+                  Subscribe to Our <br />
+                  Newsletter
+              </h2>
+              <p class="newsletter__description">
+                  Don't miss out on exclusive discounts. Subscribe to our email newsletter to receive the best offers, discounts, coupons, gifts, and more.
+              </p>
+          </div>
+          <form action="" class="newsletter__subscribe">
+              <input type="email" placeholder="Enter your email" class="newsletter__input" />
+              <button class="button" id="subscribe">SUBSCRIBE</button>
+          </form>
+      </div>
+      
+      </section>
+    </main>
+
+  <!--==================== FOOTER ====================-->
+  <footer class="footer section">
+    <div class="footer__container container grid">
+        <div class="footer__content">
+            <h3 class="footer__title">Our information</h3>
+
+            <ul class="footer__list">
+              <li>5678 - United States</li>
+              <li>New York, NY 10001</li>
+              <li>987-654-3210</li>
+            </ul>
+        </div>
+
+        <div class="footer__content">
+          <h3 class="footer__title">Products</h3>
+      
+          <ul class="footer__links">
+              <li>
+                  <a href="#" class="footer__link">Action Figures</a>
+              </li>
+              <li>
+                  <a href="#" class="footer__link">Collectibles</a>
+              </li>
+              <li>
+                  <a href="#" class="footer__link">Apparel</a>
+              </li>
+              <li>
+                  <a href="#" class="footer__link">Accessories</a>
+              </li>
+          </ul>
+        </div>
+    
+        <div class="footer__content">
+            <h3 class="footer__title">Social</h3>
+
+            <ul class="footer__social">
+                <a href="https://www.facebook.com/" target="_blank" class="footer__social-link">
+                    <i class='bx bxl-facebook'></i>
+                </a>
+
+                <a href="https://twitter.com/" target="_blank" class="footer__social-link">
+                    <i class='bx bxl-twitter' ></i>
+                </a>
+
+                  <a href="https://www.instagram.com/" target="_blank" class="footer__social-link">
+                    <i class='bx bxl-instagram' ></i>
+                  </a>
+              </ul>
+          </div>
+      </div>
+
+      <span class="footer__copy">&#169; calderonDev. All rigths reserved</span>
+  </footer>
+
+      <!--=============== SCROLL UP ===============-->
+      <a href="#" class="scrollup show-scroll" id="scroll-up"> 
+        <i class="bx bx-up-arrow-alt scrollup__icon"></i>
+    </a>
+    <!--===================== SCRIPT JS ========================-->
+
+    <!--===================== SWIPER JS ========================-->
+    <script defer src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+      <!--===================== SWEETALERT ============================-->
+   
+      <!--===================== SCRIPT JS ========================-->
+      <!--===================== MAIN JS ============================-->
+    <script defer src="./Resources/js/main.js"></script>  
+    <script defer src="./Resources/js/util.js"></script>
+    <script defer src="./Resources/js/shop.js"></script>
+    
+
+  </body>
+</html>
