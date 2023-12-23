@@ -10,6 +10,7 @@ Welcome to the Dragon Ball Z Ecommerce project! Explore a wide range of Dragon B
 - [Technologies Used](#technologies-used)
 - [Installation](#installation)
 - [Usage](#usage)
+- [Test](#test)
 - [Contributing](#contributing)
 - [Credits](#credits)
 
@@ -30,6 +31,10 @@ To set up the project, simply download or clone the repository. Since this proje
 
 ## Usage
 Open the index.html file in your web browser to explore the Dragon Ball Z collectibles. The website is designed to be user-friendly, allowing visitors to browse and shop for their favorite items.
+## Test
+This project includes unit tests for specific functions located in the `test` folder.
+**Note:**
+If you are interested in running the tests, consider setting up a Node.js server locally and adapting the project structure to accommodate server-side testing.
 ##Contributing
 If you would like to contribute to the project, follow these steps:
 
